@@ -28,7 +28,7 @@
         android:paddingLeft="35dp"
         android:paddingRight="35dp"
         android:textColor="#cc6600"
-        android:background="#008040"
+        android:background="#008000"
         />
     <TextView
         android:layout_width="wrap_content"
