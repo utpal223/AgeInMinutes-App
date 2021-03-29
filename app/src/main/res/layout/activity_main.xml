@@ -7,6 +7,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:background="#ccffe6"
+    android:padding="15dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Calculate Your "
-        android:textSize="25sp"
+        android:textSize="28sp"
         android:textStyle="bold"
          />
     <TextView
@@ -22,10 +23,72 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="AGE"
-        android:textSize="29sp"
+        android:textSize="32sp"
         android:textStyle="bold"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
         android:textColor="#cc6600"
         android:background="#008040"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="In Minutes "
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:textSize="19sp"
+        android:textColor="#ffff1a"
+        android:text="SELECT DATE"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textColor="#660000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Selected Date"
+        android:textSize="18dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textColor="#660000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+
+    />
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:text="In Minutes Till Date "
+    android:textSize="15sp"
+
+    />
+
+
 
 </LinearLayout>
