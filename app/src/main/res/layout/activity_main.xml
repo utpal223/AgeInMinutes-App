@@ -17,6 +17,7 @@
         android:text="Calculate Your "
         android:textSize="28sp"
         android:textStyle="bold"
+        android:textColor="#99003d"
          />
     <TextView
         android:layout_width="wrap_content"
@@ -37,8 +38,11 @@
         android:text="In Minutes "
         android:textSize="25sp"
         android:textStyle="bold"
+        android:textColor="#99003d"
         />
     <Button
+        android:onClick="clickDataPicker"
+        android:id="@+id/btnDatePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -51,10 +55,11 @@
         />
 
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:textColor="#660000"
+        android:textColor="#666600"
         android:textSize="25sp"
         android:textStyle="bold"
         />
@@ -65,10 +70,12 @@
         android:layout_marginTop="15dp"
         android:text="Selected Date"
         android:textSize="18dp"
+        android:textColor="#996600"
         />
 
 
     <TextView
+        android:id="@+id/tvSelectedDateInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
@@ -86,6 +93,7 @@
     android:layout_marginTop="15dp"
     android:text="In Minutes Till Date "
     android:textSize="15sp"
+        android:textColor="#996600"
 
     />
 
